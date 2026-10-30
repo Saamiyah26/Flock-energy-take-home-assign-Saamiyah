@@ -1,0 +1,268 @@
+=== data1_early ===
+Rows: 3121234
+Columns: ['Time', 'Unix', 'Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+First timestamp: 2013-10-09 14:06:17
+Last timestamp: 2014-06-27 23:59:50
+Invalid timestamps: 0
+Missing timestamps: 0
+Out-of-order transitions: 1
+Zero Unix values: 0
+Invalid Unix values: 0
+Exact duplicate rows: 608023
+Repeated timestamps: 657524
+Distinct repeated timestamps: 308556
+Conflicting duplicate groups: 10
+Missing values by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 0 (0.00%)
+  - Appliance2: 0 (0.00%)
+  - Appliance3: 0 (0.00%)
+  - Appliance4: 0 (0.00%)
+  - Appliance5: 0 (0.00%)
+  - Appliance6: 0 (0.00%)
+  - Appliance7: 0 (0.00%)
+  - Appliance8: 0 (0.00%)
+  - Appliance9: 0 (0.00%)
+Zero readings by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 12 (0.00%)
+  - Appliance1: 2422207 (77.60%)
+  - Appliance2: 2076353 (66.52%)
+  - Appliance3: 1916651 (61.41%)
+  - Appliance4: 3098599 (99.27%)
+  - Appliance5: 3058490 (97.99%)
+  - Appliance6: 3091370 (99.04%)
+  - Appliance7: 2831378 (90.71%)
+  - Appliance8: 2587221 (82.89%)
+  - Appliance9: 874 (0.03%)
+Aggregate zero + appliance >0 rows: 12
+Aggregate < appliance sum: 45342
+Aggregate == appliance sum: 272
+Aggregate > appliance sum: 3075620
+Intervals sorted >60s: 542
+Intervals sorted >5min: 327
+Intervals sorted >1h: 6
+Intervals sorted >24h: 2
+Suspicious high readings:
+  - Aggregate: max=24000.0, threshold_count=7124 (0.23%)
+  - Appliance1: max=69629.0, threshold_count=359 (0.01%)
+  - Appliance2: max=98301.0, threshold_count=10 (0.00%)
+  - Appliance3: max=32751.0, threshold_count=38 (0.00%)
+  - Appliance4: max=98301.0, threshold_count=867 (0.03%)
+  - Appliance5: max=8232.0, threshold_count=1 (0.00%)
+  - Appliance6: max=14336.0, threshold_count=24 (0.00%)
+  - Appliance7: max=98299.0, threshold_count=3 (0.00%)
+  - Appliance8: max=65549.0, threshold_count=81 (0.00%)
+  - Appliance9: max=65535.0, threshold_count=35 (0.00%)
+
+
+
+=== data2a_part1 ===
+Rows: 1256643
+Columns: ['Time', 'Unix', 'Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+First timestamp: 2014-06-28 00:00:04
+Last timestamp: 2014-10-01 01:27:07
+Invalid timestamps: 0
+Missing timestamps: 0
+Out-of-order transitions: 1
+Zero Unix values: 0
+Invalid Unix values: 0
+Exact duplicate rows: 512896
+Repeated timestamps: 553480
+Distinct repeated timestamps: 256934
+Conflicting duplicate groups: 10
+Missing values by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 0 (0.00%)
+  - Appliance2: 0 (0.00%)
+  - Appliance3: 0 (0.00%)
+  - Appliance4: 0 (0.00%)
+  - Appliance5: 0 (0.00%)
+  - Appliance6: 0 (0.00%)
+  - Appliance7: 0 (0.00%)
+  - Appliance8: 0 (0.00%)
+  - Appliance9: 0 (0.00%)
+Zero readings by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 903453 (71.89%)
+  - Appliance2: 707320 (56.29%)
+  - Appliance3: 707790 (56.32%)
+  - Appliance4: 1247481 (99.27%)
+  - Appliance5: 1226177 (97.58%)
+  - Appliance6: 1246156 (99.17%)
+  - Appliance7: 1139276 (90.66%)
+  - Appliance8: 960657 (76.45%)
+  - Appliance9: 0 (0.00%)
+Aggregate zero + appliance >0 rows: 0
+Aggregate < appliance sum: 6680
+Aggregate == appliance sum: 31
+Aggregate > appliance sum: 1249932
+Intervals sorted >60s: 238
+Intervals sorted >5min: 53
+Intervals sorted >1h: 8
+Intervals sorted >24h: 1
+Suspicious high readings:
+  - Aggregate: max=24000.0, threshold_count=3032 (0.24%)
+  - Appliance1: max=65605.0, threshold_count=44 (0.00%)
+  - Appliance2: max=2093.0, threshold_count=0 (0.00%)
+  - Appliance3: max=1034.0, threshold_count=0 (0.00%)
+  - Appliance4: max=73725.0, threshold_count=184 (0.01%)
+  - Appliance5: max=32767.0, threshold_count=11 (0.00%)
+  - Appliance6: max=2465.0, threshold_count=0 (0.00%)
+  - Appliance7: max=59.0, threshold_count=0 (0.00%)
+  - Appliance8: max=8192.0, threshold_count=3 (0.00%)
+  - Appliance9: max=1.0, threshold_count=0 (0.00%)
+
+
+
+=== data2b_part2 ===
+Rows: 954496
+Columns: ['Time', 'Unix', 'Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+First timestamp: 2014-06-28 00:00:05
+Last timestamp: 2014-10-01 23:59:59
+Invalid timestamps: 0
+Missing timestamps: 0
+Out-of-order transitions: 0
+Zero Unix values: 0
+Invalid Unix values: 0
+Exact duplicate rows: 0
+Repeated timestamps: 0
+Distinct repeated timestamps: 0
+Conflicting duplicate groups: 0
+Missing values by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 55418 (5.81%)
+  - Appliance1: 134067 (14.05%)
+  - Appliance2: 127550 (13.36%)
+  - Appliance3: 88495 (9.27%)
+  - Appliance4: 251905 (26.39%)
+  - Appliance5: 145231 (15.22%)
+  - Appliance6: 112989 (11.84%)
+  - Appliance7: 68103 (7.13%)
+  - Appliance8: 108710 (11.39%)
+  - Appliance9: 953978 (99.95%)
+Zero readings by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 589756 (61.79%)
+  - Appliance2: 468840 (49.12%)
+  - Appliance3: 488032 (51.13%)
+  - Appliance4: 700394 (73.38%)
+  - Appliance5: 789728 (82.74%)
+  - Appliance6: 834810 (87.46%)
+  - Appliance7: 808691 (84.72%)
+  - Appliance8: 649130 (68.01%)
+  - Appliance9: 0 (0.00%)
+Aggregate zero + appliance >0 rows: 0
+Aggregate < appliance sum: 1331
+Aggregate == appliance sum: 13
+Aggregate > appliance sum: 897734
+Intervals sorted >60s: 2870
+Intervals sorted >5min: 23
+Intervals sorted >1h: 6
+Intervals sorted >24h: 1
+Suspicious high readings:
+  - Aggregate: max=24000.0, threshold_count=2131 (0.22%)
+  - Appliance1: max=65605.0, threshold_count=26 (0.00%)
+  - Appliance2: max=2093.0, threshold_count=0 (0.00%)
+  - Appliance3: max=1060.0, threshold_count=0 (0.00%)
+  - Appliance4: max=73725.0, threshold_count=8 (0.00%)
+  - Appliance5: max=32767.0, threshold_count=6 (0.00%)
+  - Appliance6: max=2465.0, threshold_count=0 (0.00%)
+  - Appliance7: max=60.0, threshold_count=0 (0.00%)
+  - Appliance8: max=8192.0, threshold_count=1 (0.00%)
+  - Appliance9: max=1.0, threshold_count=0 (0.00%)
+
+
+
+=== data3_late ===
+Rows: 3185453
+Columns: ['Time', 'Unix', 'Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+First timestamp: 2014-10-02 00:00:07
+Last timestamp: 2015-07-10 11:56:32
+Invalid timestamps: 0
+Missing timestamps: 0
+Out-of-order transitions: 0
+Zero Unix values: 0
+Invalid Unix values: 0
+Exact duplicate rows: 0
+Repeated timestamps: 0
+Distinct repeated timestamps: 0
+Conflicting duplicate groups: 0
+Missing values by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 133490 (4.19%)
+  - Appliance1: 303700 (9.53%)
+  - Appliance2: 331771 (10.42%)
+  - Appliance3: 223371 (7.01%)
+  - Appliance4: 258148 (8.10%)
+  - Appliance5: 351842 (11.05%)
+  - Appliance6: 229238 (7.20%)
+  - Appliance7: 164591 (5.17%)
+  - Appliance8: 281886 (8.85%)
+  - Appliance9: 956898 (30.04%)
+Zero readings by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 2228626 (69.96%)
+  - Appliance2: 1933464 (60.70%)
+  - Appliance3: 1754398 (55.08%)
+  - Appliance4: 2924960 (91.82%)
+  - Appliance5: 2768766 (86.92%)
+  - Appliance6: 2927738 (91.91%)
+  - Appliance7: 2618322 (82.20%)
+  - Appliance8: 2392114 (75.09%)
+  - Appliance9: 742 (0.02%)
+Aggregate zero + appliance >0 rows: 0
+Aggregate < appliance sum: 11996
+Aggregate == appliance sum: 40
+Aggregate > appliance sum: 3039927
+Intervals sorted >60s: 733
+Intervals sorted >5min: 49
+Intervals sorted >1h: 13
+Intervals sorted >24h: 9
+Suspicious high readings:
+  - Aggregate: max=29159.0, threshold_count=8778 (0.28%)
+  - Appliance1: max=76677.0, threshold_count=142 (0.00%)
+  - Appliance2: max=66685.0, threshold_count=22 (0.00%)
+  - Appliance3: max=73725.0, threshold_count=66 (0.00%)
+  - Appliance4: max=98301.0, threshold_count=52 (0.00%)
+  - Appliance5: max=73725.0, threshold_count=48 (0.00%)
+  - Appliance6: max=37610.0, threshold_count=10 (0.00%)
+  - Appliance7: max=73725.0, threshold_count=160 (0.01%)
+  - Appliance8: max=98301.0, threshold_count=63 (0.00%)
+  - Appliance9: max=32737.0, threshold_count=15 (0.00%)
+
+
+
+
+Comparison summary:
+      Metric  Total rows  Invalid timestamps  Out-of-order transitions  Exact duplicate rows  Repeated timestamps  Conflicting duplicate groups  Missing Aggregate readings  Missing appliance readings  Zero Aggregate readings  Intervals over 60s  Intervals over 5 min  Intervals over 1 hour  Intervals over 24 hours  Negative power readings  Aggregate readings above 10,000 W  Appliance readings above 5,000 W  Aggregate zero + non-zero appliance rows
+ data1_early     3121234                   0                         1                608023               657524                            10                           0                           0                       12                 542                   327                      6                        2                        0                               7124                              1418                                        12
+data2a_part1     1256643                   0                         1                512896               553480                            10                           0                           0                        0                 238                    53                      8                        1                        0                               3032                               242                                         0
+data2b_part2      954496                   0                         0                     0                    0                             0                       55418                     1991028                        0                2870                    23                      6                        1                        0                               2131                                41                                         0
+  data3_late     3185453                   0                         0                     0                    0                             0                      133490                     3101445                        0                 733                    49                     13                        9                        0                               8778                               578                                         0
+=== Data 2A vs Data 2B comparison ===
+rows_data2a: 1256643
+rows_data2b: 954496
+time_overlap_start: 2014-06-28 00:00:05
+time_overlap_end: 2014-10-01 01:27:07
+unique_times_in_a: 960097
+unique_times_in_b: 954496
+aggregate_mean_a: 353.7920435636851
+aggregate_mean_b: 350.78227473033485
+aggregate_median_a: 220.0
+aggregate_median_b: 219.0
+missing_aggregate_a: 0
+missing_aggregate_b: 55418

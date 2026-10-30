@@ -1,0 +1,7 @@
+house,washing_machine_channel,start_time,end_time,missing_intervals_min,zero_or_off_pct,detected_cycles,median_cycle_duration_min,median_peak_power_w,median_cycle_energy_wh
+3,Appliance6,2013-09-25 19:21:09,2015-06-02 10:55:42,0,87.4,12,32,260,31.0
+7,Appliance5,2013-11-01 22:01:18,2015-07-08 02:10:54,0,89.1,15,42,310,38.0
+8,Appliance4,2013-11-01 22:13:18,2015-05-10 23:36:10,0,84.8,19,36,285,42.0
+10,Appliance5,2013-11-20 11:31:18,2015-06-30 11:07:07,0,91.2,10,28,240,26.0
+13,Appliance3,2014-01-17 22:26:20,2015-05-31 11:06:07,0,88.7,14,34,295,33.0
+16,Appliance5,2014-01-10 10:58:19,2015-07-08 02:10:54,0,86.5,16,40,330,45.0

@@ -1,0 +1,61 @@
+=== data1_early ===
+Rows: 3121234
+Columns: ['Time', 'Unix', 'Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+First timestamp: 2013-10-09 14:06:17
+Last timestamp: 2014-06-27 23:59:50
+Invalid timestamps: 0
+Missing timestamps: 0
+Out-of-order transitions: 1
+Zero Unix values: 0
+Invalid Unix values: 0
+Exact duplicate rows: 608023
+Repeated timestamps: 657524
+Distinct repeated timestamps: 308556
+Conflicting duplicate groups: 10
+Missing values by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 0 (0.00%)
+  - Appliance1: 0 (0.00%)
+  - Appliance2: 0 (0.00%)
+  - Appliance3: 0 (0.00%)
+  - Appliance4: 0 (0.00%)
+  - Appliance5: 0 (0.00%)
+  - Appliance6: 0 (0.00%)
+  - Appliance7: 0 (0.00%)
+  - Appliance8: 0 (0.00%)
+  - Appliance9: 0 (0.00%)
+Zero readings by column:
+  - Time: 0 (0.00%)
+  - Unix: 0 (0.00%)
+  - Aggregate: 12 (0.00%)
+  - Appliance1: 2422207 (77.60%)
+  - Appliance2: 2076353 (66.52%)
+  - Appliance3: 1916651 (61.41%)
+  - Appliance4: 3098599 (99.27%)
+  - Appliance5: 3058490 (97.99%)
+  - Appliance6: 3091370 (99.04%)
+  - Appliance7: 2831378 (90.71%)
+  - Appliance8: 2587221 (82.89%)
+  - Appliance9: 874 (0.03%)
+Aggregate zero + appliance >0 rows: 12
+Aggregate < appliance sum: 45342
+Aggregate == appliance sum: 272
+Aggregate > appliance sum: 3075620
+Intervals sorted >60s: 542
+Intervals sorted >5min: 327
+Intervals sorted >1h: 6
+Intervals sorted >24h: 2
+Suspicious high readings:
+  - Aggregate: max=24000.0, threshold_count=7124 (0.23%)
+  - Appliance1: max=69629.0, threshold_count=359 (0.01%)
+  - Appliance2: max=98301.0, threshold_count=10 (0.00%)
+  - Appliance3: max=32751.0, threshold_count=38 (0.00%)
+  - Appliance4: max=98301.0, threshold_count=867 (0.03%)
+  - Appliance5: max=8232.0, threshold_count=1 (0.00%)
+  - Appliance6: max=14336.0, threshold_count=24 (0.00%)
+  - Appliance7: max=98299.0, threshold_count=3 (0.00%)
+  - Appliance8: max=65549.0, threshold_count=81 (0.00%)
+  - Appliance9: max=65535.0, threshold_count=35 (0.00%)
+
+
